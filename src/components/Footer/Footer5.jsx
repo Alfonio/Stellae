@@ -38,10 +38,10 @@ const Footer = () => {
                    Importante
                 </h1>
                 <ul className={`flex flex-col gap-3 `}>
-                  <li className="cursor-pointer">Home</li>
-                  <li className="cursor-pointer">About</li>
-                  <li className="cursor-pointer">Servicios</li>
-                  <li className="cursor-pointer">Login</li>
+                  <li className="cursor-pointer">Analisis-Sec</li>
+                  <li className="cursor-pointer">Propu-Valor</li>
+                  <li className="cursor-pointer">Taller 3</li>
+                  <li className="cursor-pointer">Taller 4</li>
                 </ul>
               </div>
             </div>
@@ -84,12 +84,12 @@ const Footer = () => {
             </span>
             <div className="flex items-center justify-center gap-4 mb-4">
              
-              <a href="https://www.facebook.com/" target="_blank"  rel="noopener noreferrer"><FaFacebook className="text-4xl text-blue-500" /></a>              
+              <a href="https://www.facebook.com/"  rel="noopener noreferrer"><FaFacebook className="text-4xl text-blue-500" /></a>              
               <a href="https://www.linkedin.com/" target="_blank"  rel="noopener noreferrer"><FaLinkedin className="text-4xl text-sky-600" /></a>
               <a href="https://www.twitter.com/"  target="_blank"  rel="noopener noreferrer"><FaXTwitter className="text-4xl text-black" /></a>
               <a href="https://www.youtube.com/"  target="_blank"  rel="noopener noreferrer"><FaYoutube className="text-4xl text-red-600" /></a>
               <a href="https://www.twitch.tv/"    target="_blank"  rel="noopener noreferrer"><FaTwitch className="text-4xl text-violet-600" /></a>
-              <a href="https://www.facebook.com/" target="_blank"  rel="noopener noreferrer"><FaKickstarter className="text-4xl text-green-600" /></a>
+              <a href="https://www.kick.com/"     target="_blank"  rel="noopener noreferrer"><FaKickstarter className="text-4xl text-green-600" /></a>
 
               
             </div>

@@ -6,17 +6,14 @@ const Hero = () => {
       <div className="h-full flex justify-center items-center p-4">
         <div className="container grid grid-cols-1 sm:grid-cols-2 gap-4">
           <div className="text-white space-y-4 lg:pr-36">
-            <h1 className="text-5xl font-bold">ORBIT THE EARTH</h1>
+            <h1 className="text-5xl font-bold">Share Your Story</h1>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea
-              dolorem eius accusamus beatae. Nulla quis beatae quo, possimus
-              tempora similique dignissimos repellat aperiam veniam culpa
-              consequatur repudiandae asperiores saepe.
+            Despierta la grandeza de tu historia. Que cada momento cobre vida con nuestro streaming, convirtiendo cada emisión en una experiencia cautivadora. Haz que el mundo se rinda ante tu narrativa, y deja que tu pasión encienda corazones en cada rincón del planeta. Tu historia merece ser vista: ¡haz que brille con nuestro streaming!
             </p>
             <button
               className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200"
             >
-              LEARN MORE
+              VER MAS
             </button>
           </div>
           <div></div>

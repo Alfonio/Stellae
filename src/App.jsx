@@ -3,7 +3,7 @@ import Hero from "./components/Hero/Hero.jsx";
 import HeroCard from "./components/HeroCard/HeroCard.jsx";
 import BgVideo from "./assets/earth-bg.mp4";
 import Rapidscat from "./components/Rapidscat/Rapidscat.jsx";
-import Satelite from "./components/Satelite/Satelite.jsx";
+import Satelite from "./components/Stream/Satelite.jsx";
 import Footer5 from "./components/Footer/Footer5.jsx";
 
 function App() {

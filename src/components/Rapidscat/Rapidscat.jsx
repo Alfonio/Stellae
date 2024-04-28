@@ -1,4 +1,4 @@
-import sateliteImg from "../../assets/satelite1.jpg";
+import img2 from "../../assets/img2.png"
 
 const Rapidscat = () => {
   return (
@@ -7,21 +7,16 @@ const Rapidscat = () => {
         <div className="container ">
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 items-center">
             <div>
-              <img src={sateliteImg} alt="sateliteImg" className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover"/>
+              <img src={img2} alt="sateliteImg" className="w-full sm:w-[80%] mx-auto max-h-[350px] object-cover rounded-xl"/>
             </div>
             <div className="space-y-3 xl:pr-36 p-4 border-r-2 border-b-2 border-r-sky-800 border-b-sky-800 ">
               <p className="text-sky-800 uppercase"> our mission </p>
-              <h1 className="uppercase text-5xl"> Rapidscat </h1>
+              <h1 className="uppercase text-5xl"> Vanguardia </h1>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
-                molestiae reprehenderit expedita corporis, non doloremque.
-                Consequatur consectetur quisquam qui sunt. Lorem ipsum dolor sit
-                amet consectetur adipisicing elit. Eos molestiae reprehenderit
-                expedita corporis, non doloremque. Consequatur consectetur
-                quisquam qui sunt.
+              En STELLAE-ST, nos dedicamos a potenciar el rendimiento de los streamers para que alcancen todo su potencial. Con soluciones innovadoras y un enfoque centrado en el crecimiento, acompañamos a cada streamer en su viaje hacia el éxito.
               </p>
               <button className="bg-blue-400 text-white hover:bg-blue-500 px-4 py-1 rounded-md duration-200">
-                View All
+                Ver Mas
               </button>
             </div>
           </div>
