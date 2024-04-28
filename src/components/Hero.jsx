@@ -1,3 +1,5 @@
+import MoonSuper from "../assets/moon-surface-hd.png"
+
 function Hero() {
   return (
     <div className="bg-black/20 h-full text-white relative z-50">
@@ -10,11 +12,15 @@ function Hero() {
                     <button className="bg-blue-400 text-white hover:bg-blue-600 px-4 py-2 rounded-md duration-200">Learn More</button>
                 </div>
 
-                <div>
-
-                </div>
+                <div> </div>
             </div>
         </div>
+        {/* SURFACE SECTION */}
+        <img src={MoonSuper} alt="MoonSuper" className="absolute right-0 bottom-0 w-full brightness-50 z-10"/>
+        {/* Bottom gradiant seccion */}
+      <div className="absolute bottom-0 w-full z-30 bg-gradient-to-b from-transparent from-10% to-black to-90% h-[20px] sm:h-[50px] md:[60px]">
+        
+      </div>
     </div>
   )
 }
