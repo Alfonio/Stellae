@@ -1,4 +1,5 @@
 import Logo from "../../assets/logo.png";
+import { motion } from "framer-motion";
 
 const Navbar = () => {
   return (
@@ -7,16 +8,32 @@ const Navbar = () => {
         <div className="container">
           <div className="flex justify-between items-center">
             <div className="flex items-center gap-4 text-white font-bold text-2xl">
-              <img src={Logo} alt="" className="w-10" />
+              <motion.img
+              whileInView={{opacity: 1}}
+              initial={{opacity: 0}}
+              transition={{duration: 2}}
+              src={Logo} alt="" className="w-10" />
               <span>STELLAE-ST</span>
             </div>
             <div className="text-white hidden sm:block">
-              <ul className="flex items-center gap-6 text-xl py-4 ">
-                <li className="text-white hover:text-blue-400"><a href="#">About</a></li>
-                <li className="text-white hover:text-blue-400"><a href="#">Servicios</a></li>
-                <li className="text-white hover:text-blue-400"><a href="#">Couching</a></li>
-                <li className="text-white hover:text-blue-400"><a href="#">Market</a></li>
-              </ul>
+              <motion.ul 
+                whileInView={{opacity: 1, y: 0}}
+                initial={{opacity: 0, y: -10}}
+                transition={{duration: 0.5}}
+              className="flex items-center gap-6 text-xl py-4 ">
+                <motion.li
+                  whileHover={{ scale: 1.2 }}
+                  className="text-white hover:text-blue-400"><a href="#">About</a></motion.li>
+                <motion.li
+                  whileHover={{ scale: 1.2 }}
+                  className="text-white hover:text-blue-400"><a href="#">Servicios</a></motion.li>
+                <motion.li
+                  whileHover={{ scale: 1.2 }} 
+                  className="text-white hover:text-blue-400"><a href="#">Couching</a></motion.li>
+                <motion.li
+                  whileHover={{ scale: 1.2 }} 
+                  className="text-white hover:text-blue-400"><a href="#">Market</a></motion.li>
+              </motion.ul>
             </div>
             <div>
             <button className="group relative inline-flex items-center justify-start overflow-hidden rounded bg-transparent px-3 py-1  font-medium transition-all border-2 border-white hover:bg-transparent hover:border-transparent hover:text-white">

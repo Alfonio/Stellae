@@ -5,6 +5,8 @@ import { FaXTwitter } from "react-icons/fa6";
 import { HiLocationMarker } from "react-icons/hi";
 import { MdCall, MdMessage } from "react-icons/md";
 
+import { motion } from "framer-motion";
+
 const Footer = () => {
   return (
     <div className="bg-indigo-950">
@@ -84,12 +86,30 @@ const Footer = () => {
             </span>
             <div className="flex items-center justify-center gap-4 mb-4">
              
-              <a href="https://www.facebook.com/"  rel="noopener noreferrer"><FaFacebook className="text-4xl text-blue-500" /></a>              
-              <a href="https://www.linkedin.com/" target="_blank"  rel="noopener noreferrer"><FaLinkedin className="text-4xl text-sky-600" /></a>
-              <a href="https://www.twitter.com/"  target="_blank"  rel="noopener noreferrer"><FaXTwitter className="text-4xl text-black" /></a>
-              <a href="https://www.youtube.com/"  target="_blank"  rel="noopener noreferrer"><FaYoutube className="text-4xl text-red-600" /></a>
-              <a href="https://www.twitch.tv/"    target="_blank"  rel="noopener noreferrer"><FaTwitch className="text-4xl text-violet-600" /></a>
-              <a href="https://www.kick.com/"     target="_blank"  rel="noopener noreferrer"><FaKickstarter className="text-4xl text-green-600" /></a>
+              <motion.a 
+               whileHover={{ scale: 1.2 }}
+               transition={{ duration: 0.3 }}
+              href="https://www.facebook.com/"  rel="noopener noreferrer"><FaFacebook className="text-4xl text-blue-500" /></motion.a>              
+              <motion.a 
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+              href="https://www.linkedin.com/" target="_blank"  rel="noopener noreferrer"><FaLinkedin className="text-4xl text-sky-600" /></motion.a>
+              <motion.a 
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+              href="https://www.twitter.com/"  target="_blank"  rel="noopener noreferrer"><FaXTwitter className="text-4xl text-black" /></motion.a>
+              <motion.a 
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+              href="https://www.youtube.com/"  target="_blank"  rel="noopener noreferrer"><FaYoutube className="text-4xl text-red-600" /></motion.a>
+              <motion.a 
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+              href="https://www.twitch.tv/"    target="_blank"  rel="noopener noreferrer"><FaTwitch className="text-4xl text-violet-600" /></motion.a>
+              <motion.a 
+              whileHover={{ scale: 1.2 }}
+              transition={{ duration: 0.3 }}
+              href="https://www.kick.com/"     target="_blank"  rel="noopener noreferrer"><FaKickstarter className="text-4xl text-green-600" /></motion.a>
 
               
             </div>
