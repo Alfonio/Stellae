@@ -1,25 +1,23 @@
 import wave from "../../assets/wave Gif.gif";
+import CountUp from 'react-countup';
 
 const ServiceData = [
   {
-    title: "HST",
-    content: "300-1500km",
-    description:
-      "Used for astronomical observations, capturing stunning images of the universe.",
+    frase: "goals",
+    content: <div><CountUp start={0} end={1000} duration={8} /> </div>,
+    description: "Metas logradas",
     icon: <h1 className="text-7xl " >🚀 </h1>
   },
   {
-    title: "ISS",
-    content: "500-1500km",
-    description:
-      ", it's a habitable artificial satellite orbiting Earth and serves as a space environment research laboratory",
+    frase: "stars",
+    content: <div><CountUp start={0} end={10000} duration={8} /> </div>,
+    description:"Nuestros Streamers",
     icon: <h1 className="text-7xl"> 🌟 </h1>
   },
   {
-    title: "GPS",
-    content: "300-1500km",
-    description:
-      "Part of the Global Positioning System (GPS) used for navigation.",
+    frase: "projects",
+    content: <div><CountUp start={0} end={100} duration={8} /> </div>,
+    description:"Ideas alcanzadas",
     icon: <h1 className="text-7xl " > 💡 </h1>
   },
 ];
@@ -27,7 +25,7 @@ const HeroCard = () => {
   return (
     <>
       <section className="bg-primary">
-        <div className="container">
+        <div className="container pt-9">
           <div className="min-h-[400px]">
             <div>
               <div className=" grid grid-cols-1 sm:grid-cols-3 gap-6 relative z-10 ">
@@ -36,9 +34,9 @@ const HeroCard = () => {
                     <div key={index} 
                     className="min-h-[180px] flex flex-col justify-center items-center rounded-xl gap-2 bg-sky-900/60 backdrop-blur-sm  text-white text-center text-2xl py-8 px-3 w-full lg:w-[300px] mx-auto">
                       {data.icon}
-                      <h1>{data.title}</h1>
-                      <p>{data.content}</p>
-                      <p className="text-sm">{data.description}</p>
+                      <h1 className="pt-5 uppercase font-poppins-frases text-transparent bg-gradient-to-r from-blue-500 via-white to-pink-500 bg-clip-text">{data.frase}</h1>
+                      <h1 className="font-poppins-semibold text-4xl pt-1">{data.content}</h1>
+                      <p className=" font-poppins-500  font-medium text-lg ">{data.description}</p>
                     </div>
                   );
                 })}

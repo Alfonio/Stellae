@@ -12,16 +12,18 @@ const Navbar = () => {
             </div>
             <div className="text-white hidden sm:block">
               <ul className="flex items-center gap-6 text-xl py-4 ">
-                <li><a href="#">About</a></li>
-                <li><a href="#">Servicios</a></li>
-                <li><a href="#">Couching</a></li>
-                <li><a href="#">Market</a></li>
+                <li className="text-white hover:text-blue-400"><a href="#">About</a></li>
+                <li className="text-white hover:text-blue-400"><a href="#">Servicios</a></li>
+                <li className="text-white hover:text-blue-400"><a href="#">Couching</a></li>
+                <li className="text-white hover:text-blue-400"><a href="#">Market</a></li>
               </ul>
             </div>
             <div>
-              <button className=" text-white border-2 border-white px-3 py-1 rounded-md">
-                Login
-              </button>
+            <button className="group relative inline-flex items-center justify-start overflow-hidden rounded bg-transparent px-3 py-1  font-medium transition-all border-2 border-white hover:bg-transparent hover:border-transparent hover:text-white">
+            <span className="absolute bottom-0 left-0 mb-9 ml-9 h-48 w-48 -translate-x-full translate-y-full rotate-[-40deg] rounded bg-gradient-to-br from-[#67d4b7] via-[#51c3cb] to-[#ffffff] transition-all duration-500 ease-out group-hover:mb-32 group-hover:ml-0 group-hover:translate-x-0"></span>
+            <span className="relative w-full text-left text-white transition-colors duration-300 ease-in-out group-hover:text-white">Login</span>
+          </button>
+
             </div>
           </div>
         </div>
