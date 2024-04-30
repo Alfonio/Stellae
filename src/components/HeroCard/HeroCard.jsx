@@ -1,5 +1,6 @@
 import wave from "../../assets/wave Gif.gif";
 import CountUp from 'react-countup';
+import { motion } from "framer-motion";
 
 const ServiceData = [
   {
@@ -41,7 +42,11 @@ const HeroCard = () => {
                   );
                 })}
               </div>
-              <img src={wave} alt="wave" className="h-[200px] w-full  object-cover mix-blend-screen -translate-y-24 relative z-[0]"/>
+              <motion.img
+              initial={{opacity: 0, y:0}}
+              whileInView={{opacity:1, y:-100}}
+              transition={{duration: 2}}
+              src={wave} alt="wave" className="h-[200px] w-full  object-cover mix-blend-screen -translate-y-24 relative z-[0]"/>
             </div>
           </div>
         </div>
