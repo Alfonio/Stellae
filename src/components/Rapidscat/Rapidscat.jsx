@@ -1,6 +1,5 @@
-import img2 from "../../assets/img2.png"
+import img2 from "../../assets/img2.png";
 import { motion } from "framer-motion";
-
 
 const Rapidscat = () => {
   return (

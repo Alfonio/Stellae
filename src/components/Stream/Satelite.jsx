@@ -34,6 +34,7 @@ function Rapidscat  () {
               </motion.button>
             </div>
             <div>
+              
               <motion.img
                initial={{opacity: 0, x:-100}}
                whileInView={{opacity:1, x:0}}

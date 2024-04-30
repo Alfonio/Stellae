@@ -60,22 +60,22 @@ const Footer = () => {
                   initial={{opacity: 0, x:20}}
                   whileInView={{opacity: 1, x:0}}
                   transition={{duration: 0.5, delay:1.35}}
-                  className="cursor-pointer">Analisis-Sec</motion.li>
+                  className="cursor-pointer text-white hover:text-blue-400">Analisis-Sec</motion.li>
                   <motion.li 
                    initial={{opacity: 0, x:20}}
                    whileInView={{opacity: 1, x:0}}
                    transition={{duration: 0.5, delay:1.55}}
-                  className="cursor-pointer">Propu-Valor</motion.li>
+                  className="cursor-pointer text-white hover:text-blue-400">Propu-Valor</motion.li>
                   <motion.li
                   initial={{opacity: 0, x:20}}
                   whileInView={{opacity: 1, x:0}}
                   transition={{duration: 0.5, delay:1.75}}
-                  className="cursor-pointer">Taller 3</motion.li>
+                  className="cursor-pointer text-white hover:text-blue-400">Taller 3</motion.li>
                   <motion.li
                   initial={{opacity: 0, x:20}}
                   whileInView={{opacity: 1, x:0}}
                   transition={{duration: 0.5, delay:1.95}}
-                  className="cursor-pointer">Taller 4</motion.li>
+                  className="cursor-pointer text-white hover:text-blue-400">Taller 4</motion.li>
                 </ul>
               </div>
             </div>
@@ -91,22 +91,22 @@ const Footer = () => {
                    initial={{opacity: 0, x:20}}
                    whileInView={{opacity: 1, x:0}}
                    transition={{duration: 0.5, delay:2.35}}
-                   className="cursor-pointer">Home</motion.li>
+                   className="cursor-pointer text-white hover:text-blue-400">Home</motion.li>
                   <motion.li
                   initial={{opacity: 0, x:20}}
                   whileInView={{opacity: 1, x:0}}
                   transition={{duration: 0.5, delay:2.55}}
-                  className="cursor-pointer">About</motion.li>
+                  className="cursor-pointer text-white hover:text-blue-400">About</motion.li>
                   <motion.li
                   initial={{opacity: 0, x:20}}
                   whileInView={{opacity: 1, x:0}}
                   transition={{duration: 0.5, delay:2.75}}
-                  className="cursor-pointer">Servicios</motion.li>
+                  className="cursor-pointer text-white hover:text-blue-400">Servicios</motion.li>
                   <motion.li
                   initial={{opacity: 0, x:20}}
                   whileInView={{opacity: 1, x:0}}
                   transition={{duration: 0.5, delay:2.95}}
-                  className="cursor-pointer">Login</motion.li>
+                  className="cursor-pointer text-white hover:text-blue-400">Login</motion.li>
                 </ul>
               </div>
             </div>
