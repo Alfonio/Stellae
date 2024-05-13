@@ -36,7 +36,7 @@ const Navbar = () => {
                 <motion.li
                   whileTap={{ scale: 1 }} 
                   whileHover={{ scale: 1.2 }} 
-                  className="text-white hover:text-blue-400"><a href="#">Couching</a></motion.li>
+                  className="text-white hover:text-blue-400"><a href="#">Coaching</a></motion.li>
                 <motion.li
                   whileTap={{ scale: 1 }} 
                   whileHover={{ scale: 1.2 }} 
